@@ -2,7 +2,7 @@
 
 Detection of CRISPR targeted indels across a panel of clones
 
-## <i> <b> Data Summary
+## <i> <b> Data Summary </i> </b>
 Bulk cells were targeted with CRISPR-Cas9 to generate indels. Individual cells were then sorted into clonal populations. PCR amplicons were produced from primers flanking the target region. The resulting amplicons were analyzed using paired end (140bp or 150bp), multiplexed sequencing with approximately 10 unique amplicons per sequencing lane. Data input for the BSNP pipeline includes:
 
 1. FASTQ files for sequencing read 1 and read 2
@@ -26,7 +26,7 @@ Output: Aligned BAM files and indexes
 ### 2. Indel prediction with FreeBayes
 For each amplicon region the package FreeBayes is used to identify putative insertions and deletions within the sequencing reads, then determine the most likely genotype given the observed reads. Variants are annotated with genotype and likelihood as well as total depth of sequencing and number of reads contributing to each allele. 
 
-<i> "[FreeBayes](https://github.com/ekg/freebayes) is a Bayesian genetic variant detector designed to find small polymorphisms, specifically SNPs (single-nucleotide polymorphisms), indels (insertions and deletions), MNPs (multi-nucleotide polymorphisms), and complex events (composite insertion and substitution events) smaller than the length of a short-read sequencing alignment. It uses short-read alignments (BAM files with Phred+33 encoded quality scores) for any number of individuals from a population and a reference genome to determine the most-likely combination of genotypes for the population at each position in a reference genome (FASTA). It reports positions which it finds to be more likely polymorphic than monomorphic in a standard variant interchange format (VCF)"  <i>
+<i> "[FreeBayes](https://github.com/ekg/freebayes) is a Bayesian genetic variant detector designed to find small polymorphisms, specifically SNPs (single-nucleotide polymorphisms), indels (insertions and deletions), MNPs (multi-nucleotide polymorphisms), and complex events (composite insertion and substitution events) smaller than the length of a short-read sequencing alignment. It uses short-read alignments (BAM files with Phred+33 encoded quality scores) for any number of individuals from a population and a reference genome to determine the most-likely combination of genotypes for the population at each position in a reference genome (FASTA). It reports positions which it finds to be more likely polymorphic than monomorphic in a standard variant interchange format (VCF)"  </i>
 
 Prerequisites: 
 Amplicon file with Flowcell name, Gene name, Gene region 
