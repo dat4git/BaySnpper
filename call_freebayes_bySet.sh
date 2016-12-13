@@ -1,4 +1,4 @@
-METHODS_DIR='/ifs/labs/cccb/projects/cccb/aholman/methods_CRISPR_amplicons/'
+METHODS_DIR='/methods_CRISPR_amplicons/'
 
 GENOME=$1
 SEQ_SET=$2
