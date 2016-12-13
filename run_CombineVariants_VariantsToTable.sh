@@ -1,6 +1,6 @@
-APPS_PATH=/ifs/labs/cccb/projects/cccb/apps
-DB_PATH=/ifs/labs/cccb/projects/db
-# REFERENCE='/ifs/labs/cccb/projects/db/gatk/hg19/ucsc.hg19.fasta'
+APPS_PATH=/bsnp/apps # folder containing dependencies
+DB_PATH=/bsnp/db/
+REFERENCE='/bsnp/db/gatk/hg19/ucsc.hg19.fasta'
 
 #VCF_LIST=$1
 FOLDER=$1
@@ -9,9 +9,9 @@ GENOME=$2
 HG19='hg19'
 MM10='mm10'
 if   [ $GENOME == $HG19 ] 
-	then REFERENCE='/ifs/labs/cccb/projects/db/gatk/hg19/ucsc.hg19.fasta'
+	then REFERENCE='/bsnp/db/gatk/hg19/ucsc.hg19.fasta/ucsc.hg19.fasta'
 elif [ $GENOME == $MM10 ] 
-	then REFERENCE='/ifs/labs/cccb/projects/db/genomes/mouse/build38/mm10.fa'
+	then REFERENCE='/bsnp/db/genomes/mouse/build38/mm10.fa'
 else echo "No genome selected!"; exit 1;
 fi
 
