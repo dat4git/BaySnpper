@@ -1,6 +1,6 @@
-APPS_PATH=/ifs/labs/cccb/projects/cccb/apps
-DB_PATH=/ifs/labs/cccb/projects/db
-#REFERENCE='/ifs/labs/cccb/projects/db/gatk/hg19/ucsc.hg19.fasta'
+APPS_PATH=/bsnp/apps
+DB_PATH=/bsnp/db
+#REFERENCE='/bsnp/db/gatk/hg19/ucsc.hg19.fasta'
 #REFERENCE_NAME='hg19'
 
 #mkdir -p snpEff_logs
