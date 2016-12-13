@@ -30,6 +30,7 @@ For each amplicon region the package FreeBayes is used to identify putative inse
 
 Prerequisites: 
 Amplicon file with Flowcell name, Gene name, Gene region 
+
 Example: AEC64   BCL11B_27SCC    chr14:99723822-99723983
 
 Script File: call_freebayes_bySet.sh (calls run_freebayes.sh, run_snpEff.sh and run_CombineVariants_VariantsToTable.sh)
