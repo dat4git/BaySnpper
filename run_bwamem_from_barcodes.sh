@@ -1,5 +1,5 @@
-APPS_PATH=/ifs/labs/cccb/projects/cccb/apps
-REFERENCE='/ifs/labs/cccb/projects/db/gatk/hg19/ucsc.hg19.fasta'
+APPS_PATH=/bsnp/apps
+REFERENCE='/bsnp/db/gatk/hg19/ucsc.hg19.fasta'
 
 BARCODE_1=$1
 BARCODE_2=$2
